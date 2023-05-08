@@ -1,7 +1,10 @@
+import GameArea from "./components/GameArea";
 
 function App() {
   return (
-    <></>
+    <>
+    <GameArea />
+    </>
   );
 }
 
