@@ -1,13 +1,48 @@
+.playingField {
+    margin: 30px auto;
+    padding: 30px;
+    width: 90%;
+    height: 600px;
+    display: flex;
+    border: 15px solid rgba(123, 64, 13, 0.768);
+    background-color: rgba(237, 147, 68, 0.768);
+}
+
 .gameArea {
-    width: 90px;
-    height: 90px;
+    margin: 60px auto;
+    width: 210px;
+    height: 210px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
 
 .gameArea > .item {
-    min-width: 30px;
-    min-height: 30px;
+    min-width: 70px;
+    min-height: 70px;
     cursor: pointer;
     border: 1px solid rgb(31, 31, 31);
+    text-align: center;
+    font-size: 4em;
+    font-family: monospace;
 }
+
+.scoreTable {
+    border-collapse: collapse;
+    font-family: monospace;
+    font-size: 15pt;
+  }
+  
+.scoreTable td {
+    padding: 10px 20px;
+    border: 1px solid rgb(35, 34, 34);
+    background-color: rgba(40, 40, 40, 0.286);
+    text-align: center;
+}
+  
+.scoreTable th {
+    padding: 10px 20px;
+    background-color: rgba(40, 40, 40, 0.57);
+    border: 1px solid rgb(35, 34, 34);
+    color: #ffffff;
+}
+  
